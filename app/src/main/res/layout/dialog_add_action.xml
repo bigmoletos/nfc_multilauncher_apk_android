@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type d'action"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <Spinner
+        android:id="@+id/spinner_action_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- LAUNCH_APP / LAUNCH_MUSIC -->
+    <LinearLayout
+        android:id="@+id/layout_package"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="12dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Package name (ex: com.whatsapp)">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_package"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <!-- LAUNCH_URL / LAUNCH_MUSIC -->
+    <LinearLayout
+        android:id="@+id/layout_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="12dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="URL (https://...)">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textUri"
+                android:maxLines="1" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <!-- DELAY -->
+    <LinearLayout
+        android:id="@+id/layout_delay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="12dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Délai en millisecondes (ex: 3000)">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_delay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLines="1"
+                android:text="3000" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

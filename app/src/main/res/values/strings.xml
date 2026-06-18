@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NFC Multi-App Launcher</string>
+    <string name="create_task">Créer une tâche</string>
+    <string name="task_name">Nom de la tâche</string>
+    <string name="actions">Actions</string>
+    <string name="add_action">+ Ajouter une action</string>
+    <string name="save">Sauvegarder</string>
+    <string name="program_nfc">Programmer NFC</string>
+    <string name="no_tasks">Aucune tâche. Appuyez sur + pour créer.</string>
+    <string name="approach_tag">Approchez un tag NFC pour programmer</string>
+    <string name="cancel">Annuler</string>
+</resources>

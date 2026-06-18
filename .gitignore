@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+build/
+**/build/
+local.properties
+*.iml
+
+# Android Studio
+.idea/
+*.iws
+*.ipr
+captures/
+.externalNativeBuild/
+.cxx/
+*.ap_
+
+# Keystore (ne jamais committer les keystores !)
+*.jks
+*.keystore
+keystore.properties
+
+# Fichiers OS
+.DS_Store
+Thumbs.db
+
+# NDK
+obj/
+
+# Logs
+*.log

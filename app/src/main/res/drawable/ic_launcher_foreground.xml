@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- NFC waves symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,40 C45.7,40 39,46.7 39,55 C39,63.3 45.7,70 54,70 C62.3,70 69,63.3 69,55 C69,46.7 62.3,40 54,40 Z
+                         M54,65 C48.5,65 44,60.5 44,55 C44,49.5 48.5,45 54,45 C59.5,45 64,49.5 64,55 C64,60.5 59.5,65 54,65 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,30 C40.2,30 29,41.2 29,55 C29,68.8 40.2,80 54,80 C67.8,80 79,68.8 79,55 C79,41.2 67.8,30 54,30 Z
+                         M54,75 C43,75 34,66 34,55 C34,44 43,35 54,35 C65,35 74,44 74,55 C74,66 65,75 54,75 Z"
+        android:alpha="0.6" />
+</vector>
